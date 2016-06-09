@@ -9,10 +9,14 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
 	Only add files to the staging area if they are part of one logcial change.  This can be confirmed by performing a git diff to compare working directory and staging area, or a git diff --staged to compare the staging area and the head of the commits.  All differences should relate to one change.
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	Useful if you are exploring different options for solving the same problem, or if there will be more than one final version, with different difficulty levels or languages.  Or, maybe there will only be one final version, but the different features and configurations are being designed in isolation from each other, possibly by different people.
 
 How do the diagrams help you visualize the branch structure?
 
