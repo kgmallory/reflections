@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	Instead of looking at 2 long files, I looked at a much shorter file, since very few lines were changed between iterations.  So, all I saw were the changes that I remembered making and other changes which would most likely be typos.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	You would know what you did before and maybe why you changed it so you wouldn't go back and make a change to something you had already decided was not wanted.
+	You could review you good ideas/bad ideas in retrospect.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Commits can take place at logical points in development, not too big, not too small, meaning that the committ description will be short and simple	
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Applications that use multiple files together (like coding) benefit from the repository systems, whereas memos and other word processing where all information is in one file, are best done in an application that is meant to work on only one file at a time so commits or saves, need only work on one file 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+	You can find where certain ideas were implemented and the actual changes to the files.  You can see what changed and when it changed, and, if you made a good comment, why it changed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+	If something breaks, is easy to back up until we find where the bug was introduced, so if we make a change and something breaks, it's easy to fix, just go back and find the bug
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+	play with open source files, it’s easier to learn by playing with existing stuff than starting from scratch
+
+Using diff to find differences means you don't need to look at every line of two long files.  If you iterate frequently, typos and other errors should be located in one relatively short diff file.
+The instructor will use a text editor called sublime.  It works in all operating systems of interest, including Windows.

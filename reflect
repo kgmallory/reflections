@@ -1,0 +1,2 @@
+Using diff to find differences means you don't need to look at every line of two long files.  If you iterate frequently, typos and other errors should be located in one relatively short diff file.
+The instructor will use a text editor called sublime.  It works in all operating systems of interest, including Windows.
