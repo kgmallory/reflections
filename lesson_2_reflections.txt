@@ -29,3 +29,5 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Some merges are completely unambiguous, so it makes sense to let an algorithm handle the merge.  Some conflicts which seem obvious may rely on knowledge not available to the algorithm, so they are done manually, even if they seem obvious.  The fact that the system kicks them out to the human means that there may be something for the human to watch out for.  So, if the algorithm handles all the obvious merges, this ensures that the human knows the conflicts kicked out have something going that the human should pay attention to.
