@@ -25,5 +25,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	all the changes in two branches are accessible by the head.  In fact, one branch is eliminated, and all it’s commits are now part of the branch is was merged with.  The diagram makes it clear that the commits are coming from different branches to form a new head with 2 parents.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
