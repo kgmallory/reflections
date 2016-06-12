@@ -7,7 +7,11 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    If you are using the files in an application, you don't want it to change
+    behavior until you are ready.  This way, you can go back to a prevous version
+    right away if there is a problem.  Also other people won't need to pull the
+    version until they know it is debugged.  Not everyone will want to use the
+    latest version.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
