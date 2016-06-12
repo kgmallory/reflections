@@ -5,29 +5,50 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	The staging area allows you to collect the files you intend to commit in an organized way before you actually perform the commit.  That way, all files, and the commit descritpion and other information will all be processed simultaneously.
+	The staging area allows you to collect the files you intend to commit in an
+	organized way before you actually perform the commit.  That way, all files,
+	and the commit descritpion and other information will all be processed
+	simultaneously.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	Only add files to the staging area if they are part of one logcial change.  This can be confirmed by performing a git diff to compare working directory and staging area, or a git diff --staged to compare the staging area and the head of the commits.  All differences should relate to one change.
+	Only add files to the staging area if they are part of one logcial change. 
+	This can be confirmed by performing a git diff to compare working directory
+	and staging area, or a git diff --staged to compare the staging area and the
+	head of the commits.  All differences should relate to one change.
 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-	Useful if you are exploring different options for solving the same problem, or if there will be more than one final version, with different difficulty levels or languages.  Or, maybe there will only be one final version, but the different features and configurations are being designed in isolation from each other, possibly by different people.
+	Useful if you are exploring different options for solving the same problem,
+	or if there will be more than one final version, with different difficulty
+	levels or languages.  Or, maybe there will only be one final version, but
+	the different features and configurations are being designed in isolation
+	from each other, possibly by different people.
 
 How do the diagrams help you visualize the branch structure?
 
-	You can see what the different variants are and also what parents they share.
+	You can see what the different variants are and also what parents they
+	share.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-	all the changes in two branches are accessible by the head.  In fact, one branch is eliminated, and all it’s commits are now part of the branch is was merged with.  The diagram makes it clear that the commits are coming from different branches to form a new head with 2 parents.
+	all the changes in two branches are accessible by the head.  In fact, one
+	branch is eliminated, and all its commits are now part of the branch is was
+	merged with.  The diagram makes it clear that the commits are coming from
+	different branches to form a new head with 2 parents.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-	Some merges are completely unambiguous, so it makes sense to let an algorithm handle the merge.  Some conflicts which seem obvious may rely on knowledge not available to the algorithm, so they are done manually, even if they seem obvious.  The fact that the system kicks them out to the human means that there may be something for the human to watch out for.  So, if the algorithm handles all the obvious merges, this ensures that the human knows the conflicts kicked out have something going that the human should pay attention to.
+    Some merges are completely unambiguous, so it makes sense to let an  
+    algorithm handle the merge.  That way, the merges kicked out to the
+    programmer are known to be nontrivial, so programmer will pay more attention
+    than if all merges, including the trivial ones, were done by programmer. 
+    Even though a conflict might seem obvious, resolving it may rely on 
+    information that the programmer knows, but not the computer.
+	
+	
