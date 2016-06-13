@@ -27,7 +27,11 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Obviously, it would be available for reference even if you weren't online
+    and logged into GitHub.  But, it would also be available for performing a
+    git merge which would generate the conflict resolution information in the
+    file being merged.  To do that, both versions must be on the computer.
+    
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
