@@ -36,7 +36,16 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    We would communicate via phone, email, or whatever message method was most
+    conv enient.  Everyone would need to see both copies of the file(s) being
+    disc ussed, so we would either paste into email, or use some sort of file
+    server we c ould all access, and then we would need to communicate the 
+    links. So, we woul d probably need at least two modes of communicate 
+    active, one for the diff erences and comments and one for the file(s).  
+    Unless we already have a syst em that combines both versons of the file and 
+    related comments into a unit, it's going to be difficult to stay organized. 
+    If we wanted to come back months late r and figure out what we did, it 
+    would be almost impossible.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
